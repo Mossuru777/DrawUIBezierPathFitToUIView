@@ -1,3 +1,4 @@
 language: objective-c
 xcode_workspace: DrawUIBezierPathFitToUIViewDemo/DrawUIBezierPathFitToUIViewDemo.xcworkspace
 xcode_scheme: DrawUIBezierPathFitToUIViewDemo
+xcode_sdk: iphonesimulator
