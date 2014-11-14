@@ -13,7 +13,6 @@
 		966145041A15CDA300511017 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 966145021A15CDA300511017 /* Main.storyboard */; };
 		966145081A15D1B200511017 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 966145071A15D1B200511017 /* Images.xcassets */; };
 		9661450B1A15D2EB00511017 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9661450A1A15D2EB00511017 /* main.m */; };
-		9661450D1A15D2F100511017 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9661450C1A15D2F100511017 /* Info.plist */; };
 		FBA1071A1333BE52349BC1B7 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B5730D2D46B2A8F864F3C3D /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -167,7 +166,6 @@
 			files = (
 				966145041A15CDA300511017 /* Main.storyboard in Resources */,
 				966145081A15D1B200511017 /* Images.xcassets in Resources */,
-				9661450D1A15D2F100511017 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
