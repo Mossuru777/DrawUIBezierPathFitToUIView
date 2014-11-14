@@ -14,23 +14,23 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "966144D21A15C75E00511017"
-               BuildableName = "DrawUIBezierPathFitToUIViewDemo.app"
-               BlueprintName = "DrawUIBezierPathFitToUIViewDemo"
-               ReferencedContainer = "container:DrawUIBezierPathFitToUIViewDemo.xcodeproj">
+               BlueprintIdentifier = "0C8F7EFBFA2BBBFAE31E82B3"
+               BuildableName = "libPods.a"
+               BlueprintName = "Pods"
+               ReferencedContainer = "container:Pods/Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
             buildForTesting = "YES"
             buildForRunning = "YES"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "966144EB1A15C75E00511017"
-               BuildableName = "DrawUIBezierPathFitToUIViewDemoTests.xctest"
-               BlueprintName = "DrawUIBezierPathFitToUIViewDemoTests"
+               BlueprintIdentifier = "966144D21A15C75E00511017"
+               BuildableName = "DrawUIBezierPathFitToUIViewDemo.app"
+               BlueprintName = "DrawUIBezierPathFitToUIViewDemo"
                ReferencedContainer = "container:DrawUIBezierPathFitToUIViewDemo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -42,16 +42,6 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "966144EB1A15C75E00511017"
-               BuildableName = "DrawUIBezierPathFitToUIViewDemoTests.xctest"
-               BlueprintName = "DrawUIBezierPathFitToUIViewDemoTests"
-               ReferencedContainer = "container:DrawUIBezierPathFitToUIViewDemo.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
