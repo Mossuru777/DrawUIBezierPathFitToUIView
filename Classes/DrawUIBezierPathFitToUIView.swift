@@ -8,7 +8,7 @@
 import UIKit
 import CoreGraphics
 
-class DrawUIBezierPathFitToUIView {
+public class DrawUIBezierPathFitToUIView {
     /// UIBezierPaths scale when fit to UIView.
     /// The value must be greater than 0.0 and 1.0 or less.
     public var scale: CGFloat {
@@ -16,7 +16,7 @@ class DrawUIBezierPathFitToUIView {
             return self.scale
         }
 
-        set(newValue) {
+        set {
             if newValue <= 0.0 || newValue > 1.0 {
                 fatalError("ValueError: scale must be greater than 0.0 and 1.0 or less.")
             }
@@ -34,10 +34,10 @@ class DrawUIBezierPathFitToUIView {
     /// - Parameters:
     ///   - view: UIView to fit UIBezierPaths.
     ///   - scale: draw scale (default value: 1.0)
-    public init(view: UIView, scale: CGFloat = 1.0) {
-        self.scale = scale
+    public init(_ view: UIView, scale: CGFloat = 1.0) {
         self.viewSize = view.frame.size
         self.paths = []
+        self.scale = scale
     }
 
     /// Adding fit target UIBezierPath.
@@ -47,7 +47,7 @@ class DrawUIBezierPathFitToUIView {
     ///   - path: Fit target UIBezierPath object.
     ///   - fillColor: Path fill color
     ///   - strokeColor: Path stroke color
-    public func addPath(path: UIBezierPath, fillColor: UIColor?, strokeColor: UIColor?) {
+    public func addPath(_ path: UIBezierPath, fillColor: UIColor?, strokeColor: UIColor?) {
         if fillColor == nil && strokeColor == nil {
             fatalError("NoDrawPathError: arguments indicate no draw path.")
         }
@@ -66,7 +66,7 @@ class DrawUIBezierPathFitToUIView {
     /// Draw scaled UIBezierPaths for fit UIView.
     /// Scaled UIBezierPath keeps original aspect ratio.
     public func drawScaledPathFitToView() {
-        var totalRect = CGRect(x: DBL_MAX, y: DBL_MAX, 0.0, 0.0)
+        var totalRect = CGRect(x: .greatestFiniteMagnitude, y: .greatestFiniteMagnitude, width: 0.0, height: 0.0)
 
         var fit_scale: CGFloat
         var centering_margin_x: CGFloat = 0.0
@@ -82,7 +82,7 @@ class DrawUIBezierPathFitToUIView {
             path.apply(.identity)
 
             // extends bounds / origin
-            if let strokeColor = path_info.strokeColor {
+            if path_info.strokeColor != nil {
                 // width
                 if path.bounds.origin.x + path.bounds.size.width + (path.lineWidth / 2) > totalRect.size.width {
                     totalRect.size.width = path.bounds.origin.x + path.bounds.size.width + (path.lineWidth / 2)
@@ -102,7 +102,7 @@ class DrawUIBezierPathFitToUIView {
                 if path.bounds.origin.y - (path.lineWidth / 2) < totalRect.origin.y {
                     totalRect.origin.y = path.bounds.origin.y - (path.lineWidth / 2)
                 }
-            } else if let fillColor = path_info.fillColor {
+            } else if path_info.fillColor != nil {
                 // width
                 if path.bounds.origin.x + path.bounds.size.width > totalRect.size.width {
                     totalRect.size.width = path.bounds.origin.x + path.bounds.size.width
