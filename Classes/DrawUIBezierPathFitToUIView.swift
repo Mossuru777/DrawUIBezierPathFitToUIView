@@ -10,19 +10,8 @@ import CoreGraphics
 
 public class DrawUIBezierPathFitToUIView {
     /// UIBezierPaths scale when fit to UIView.
-    /// The value must be greater than 0.0 and 1.0 or less.
-    public var scale: CGFloat {
-        get {
-            return self.scale
-        }
-
-        set {
-            if newValue <= 0.0 || newValue > 1.0 {
-                fatalError("ValueError: scale must be greater than 0.0 and 1.0 or less.")
-            }
-            self.scale = newValue
-        }
-    }
+    /// The value must be between 0.0 and 1.0.
+    public var scale: CGFloat
 
     private typealias PathInfo = (path: UIBezierPath, fillColor: UIColor?, strokeColor: UIColor?)
 
@@ -33,11 +22,10 @@ public class DrawUIBezierPathFitToUIView {
     ///
     /// - Parameters:
     ///   - view: UIView to fit UIBezierPaths.
-    ///   - scale: draw scale (default value: 1.0)
-    public init(_ view: UIView, scale: CGFloat = 1.0) {
+    public init(_ view: UIView) {
+        self.scale = 1.0
         self.viewSize = view.frame.size
         self.paths = []
-        self.scale = scale
     }
 
     /// Adding fit target UIBezierPath.
@@ -66,6 +54,10 @@ public class DrawUIBezierPathFitToUIView {
     /// Draw scaled UIBezierPaths for fit UIView.
     /// Scaled UIBezierPath keeps original aspect ratio.
     public func drawScaledPathFitToView() {
+        if self.scale < 0 || self.scale > 1.0 {
+            fatalError("ValueError: scale must be between 0.0 and 1.0.")
+        }
+
         var totalRect = CGRect(x: .greatestFiniteMagnitude, y: .greatestFiniteMagnitude, width: 0.0, height: 0.0)
 
         var fit_scale: CGFloat
@@ -126,9 +118,6 @@ public class DrawUIBezierPathFitToUIView {
         }
 
         // calculate scale / centering margin / move
-        if self.scale > 1.0 || self.scale <= 0 {
-            self.scale = 1.0
-        }
         if self.viewSize.width / totalRect.size.width < self.viewSize.height / totalRect.size.height {
             fit_scale = self.viewSize.width / totalRect.size.width * self.scale
         } else {
