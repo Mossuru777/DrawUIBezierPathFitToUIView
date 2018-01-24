@@ -1,0 +1,6 @@
+target 'DrawUIBezierPathFitToUIViewDemo' do
+    platform :ios, '9.0'
+    use_frameworks!
+
+    pod 'DrawUIBezierPathFitToUIView', :path => '..'
+end

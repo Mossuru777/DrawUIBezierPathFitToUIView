@@ -1,0 +1,361 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4659A92AF3CB59B6AA09A08B /* Pods_DrawUIBezierPathFitToUIViewDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14568587068D4A0489DC649C /* Pods_DrawUIBezierPathFitToUIViewDemo.framework */; };
+		9613DB8D20186FAB00EEB4E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9613DB8C20186FAB00EEB4E2 /* AppDelegate.swift */; };
+		9613DB8F2018703800EEB4E2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9613DB8E2018703800EEB4E2 /* ViewController.swift */; };
+		9613DB91201870B500EEB4E2 /* TrainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9613DB90201870B500EEB4E2 /* TrainView.swift */; };
+		966145041A15CDA300511017 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 966145021A15CDA300511017 /* Main.storyboard */; };
+		966145081A15D1B200511017 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 966145071A15D1B200511017 /* Images.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1064282133AED74AE2DB3D64 /* Pods-DrawUIBezierPathFitToUIViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DrawUIBezierPathFitToUIViewDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DrawUIBezierPathFitToUIViewDemo/Pods-DrawUIBezierPathFitToUIViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		14568587068D4A0489DC649C /* Pods_DrawUIBezierPathFitToUIViewDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DrawUIBezierPathFitToUIViewDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2672CF0179B70079AA3E22D2 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		4F668F4D77700F0EEDB04BBE /* Pods-DrawUIBezierPathFitToUIViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DrawUIBezierPathFitToUIViewDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-DrawUIBezierPathFitToUIViewDemo/Pods-DrawUIBezierPathFitToUIViewDemo.release.xcconfig"; sourceTree = "<group>"; };
+		9613DB8C20186FAB00EEB4E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9613DB8E2018703800EEB4E2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9613DB90201870B500EEB4E2 /* TrainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainView.swift; sourceTree = "<group>"; };
+		966144D31A15C75E00511017 /* DrawUIBezierPathFitToUIViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrawUIBezierPathFitToUIViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		966145031A15CDA300511017 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		966145071A15D1B200511017 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9661450C1A15D2F100511017 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B5730D2D46B2A8F864F3C3D /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F13897DEA234279C9722C146 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		966144D01A15C75E00511017 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4659A92AF3CB59B6AA09A08B /* Pods_DrawUIBezierPathFitToUIViewDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		131B3C6BEDF63D2F2CA5AC4E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2672CF0179B70079AA3E22D2 /* Pods.debug.xcconfig */,
+				F13897DEA234279C9722C146 /* Pods.release.xcconfig */,
+				1064282133AED74AE2DB3D64 /* Pods-DrawUIBezierPathFitToUIViewDemo.debug.xcconfig */,
+				4F668F4D77700F0EEDB04BBE /* Pods-DrawUIBezierPathFitToUIViewDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5FE41C1897F185729E0A0684 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B5730D2D46B2A8F864F3C3D /* libPods.a */,
+				14568587068D4A0489DC649C /* Pods_DrawUIBezierPathFitToUIViewDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		966144CA1A15C75E00511017 = {
+			isa = PBXGroup;
+			children = (
+				966144D51A15C75E00511017 /* DrawUIBezierPathFitToUIViewDemo */,
+				966144D41A15C75E00511017 /* Products */,
+				131B3C6BEDF63D2F2CA5AC4E /* Pods */,
+				5FE41C1897F185729E0A0684 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		966144D41A15C75E00511017 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				966144D31A15C75E00511017 /* DrawUIBezierPathFitToUIViewDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		966144D51A15C75E00511017 /* DrawUIBezierPathFitToUIViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				966145021A15CDA300511017 /* Main.storyboard */,
+				966145071A15D1B200511017 /* Images.xcassets */,
+				9613DB8C20186FAB00EEB4E2 /* AppDelegate.swift */,
+				9613DB8E2018703800EEB4E2 /* ViewController.swift */,
+				9613DB90201870B500EEB4E2 /* TrainView.swift */,
+				9661450C1A15D2F100511017 /* Info.plist */,
+			);
+			path = DrawUIBezierPathFitToUIViewDemo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		966144D21A15C75E00511017 /* DrawUIBezierPathFitToUIViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 966144F61A15C75E00511017 /* Build configuration list for PBXNativeTarget "DrawUIBezierPathFitToUIViewDemo" */;
+			buildPhases = (
+				F4CC1C9134D3EEDEE14F79B0 /* [CP] Check Pods Manifest.lock */,
+				966144CF1A15C75E00511017 /* Sources */,
+				966144D01A15C75E00511017 /* Frameworks */,
+				966144D11A15C75E00511017 /* Resources */,
+				BCAEC03803806CC71D79041F /* [CP] Embed Pods Frameworks */,
+				0C4AB3744EC433FCE0F03709 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DrawUIBezierPathFitToUIViewDemo;
+			productName = DrawUIBezierPathFitToUIViewDemo;
+			productReference = 966144D31A15C75E00511017 /* DrawUIBezierPathFitToUIViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		966144CB1A15C75E00511017 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Mossan;
+				TargetAttributes = {
+					966144D21A15C75E00511017 = {
+						CreatedOnToolsVersion = 6.1;
+						LastSwiftMigration = 0920;
+					};
+				};
+			};
+			buildConfigurationList = 966144CE1A15C75E00511017 /* Build configuration list for PBXProject "DrawUIBezierPathFitToUIViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 966144CA1A15C75E00511017;
+			productRefGroup = 966144D41A15C75E00511017 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				966144D21A15C75E00511017 /* DrawUIBezierPathFitToUIViewDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		966144D11A15C75E00511017 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				966145041A15CDA300511017 /* Main.storyboard in Resources */,
+				966145081A15D1B200511017 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0C4AB3744EC433FCE0F03709 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DrawUIBezierPathFitToUIViewDemo/Pods-DrawUIBezierPathFitToUIViewDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BCAEC03803806CC71D79041F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DrawUIBezierPathFitToUIViewDemo/Pods-DrawUIBezierPathFitToUIViewDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/DrawUIBezierPathFitToUIView/DrawUIBezierPathFitToUIView.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DrawUIBezierPathFitToUIView.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DrawUIBezierPathFitToUIViewDemo/Pods-DrawUIBezierPathFitToUIViewDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F4CC1C9134D3EEDEE14F79B0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DrawUIBezierPathFitToUIViewDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		966144CF1A15C75E00511017 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9613DB8D20186FAB00EEB4E2 /* AppDelegate.swift in Sources */,
+				9613DB8F2018703800EEB4E2 /* ViewController.swift in Sources */,
+				9613DB91201870B500EEB4E2 /* TrainView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		966145021A15CDA300511017 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				966145031A15CDA300511017 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		966144F41A15C75E00511017 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+			};
+			name = Debug;
+		};
+		966144F51A15C75E00511017 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		966144F71A15C75E00511017 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1064282133AED74AE2DB3D64 /* Pods-DrawUIBezierPathFitToUIViewDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = DrawUIBezierPathFitToUIViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "net.mossan.ios.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		966144F81A15C75E00511017 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F668F4D77700F0EEDB04BBE /* Pods-DrawUIBezierPathFitToUIViewDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = DrawUIBezierPathFitToUIViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "net.mossan.ios.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		966144CE1A15C75E00511017 /* Build configuration list for PBXProject "DrawUIBezierPathFitToUIViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				966144F41A15C75E00511017 /* Debug */,
+				966144F51A15C75E00511017 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		966144F61A15C75E00511017 /* Build configuration list for PBXNativeTarget "DrawUIBezierPathFitToUIViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				966144F71A15C75E00511017 /* Debug */,
+				966144F81A15C75E00511017 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 966144CB1A15C75E00511017 /* Project object */;
+}

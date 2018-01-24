@@ -1,0 +1,16 @@
+PODS:
+  - DrawUIBezierPathFitToUIView (2.0.0)
+
+DEPENDENCIES:
+  - DrawUIBezierPathFitToUIView (from `..`)
+
+EXTERNAL SOURCES:
+  DrawUIBezierPathFitToUIView:
+    :path: ..
+
+SPEC CHECKSUMS:
+  DrawUIBezierPathFitToUIView: e6491016513d691d1849670b13514aa1afcc7a04
+
+PODFILE CHECKSUM: eb152b550fb7b136ec52186b0e0ff23301f5b7a2
+
+COCOAPODS: 1.4.0
